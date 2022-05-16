@@ -1,0 +1,311 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.body__inicio {
+    
+    height: 15 fr;
+    background-image: url(../recursos/imagen-black-mirror.jpg);
+    
+}
+.body__temporadas{
+    height: 22.5fr ;
+    background-image: url(../recursos/imagen-black-mirror.jpg);
+    
+}
+
+
+header {
+    background-color: rgb(0, 0, 0);
+
+    
+}
+ul {
+    
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 196px;
+    position: relative;
+    font-size: 18px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 0.5fr ;
+    padding: 15px;
+} 
+
+.header__navegacion {
+    padding: 15px;
+    display: inline;
+    background-color: black;
+}
+
+.portada__titulo {
+    border-radius: 30px;
+    width: 10fr;
+    padding: 20px;
+    height: 100px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    
+    
+}
+
+.info__serie{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+}
+.Titulo__info{
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+.presentacion__contenido{
+    font-size: 55px;
+    padding:
+    10px;
+    margin: 5px;
+    margin-bottom: 300px;
+    color: white;
+}
+.portada { 
+    display: flex;
+    flex-direction: column;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 12fr;
+    
+
+}
+.footerinicio__redes{
+    font-size: 20px;
+color: white;
+width: 50px;
+height: 50px;
+margin-top: 1300px;
+}
+.footertemp__redes{
+    font-size: 20px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 2500px;
+}
+
+
+.titulo__pelicula{
+    color: white;
+    padding: 10px;
+    font-size: 60px;
+}
+.info__pelicula{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.temporada__titulo{
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.temporada__1{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.temporada__1info{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.temp1__cap1{
+    
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.temp1__cap2{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.temp1__cap3{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.temp2__cap1{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.temp2__cap2{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.temp2__cap3{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.elenco__titulo{
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.Info__elenco{
+    padding: 5px;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.info__temp1{
+    padding: 5px;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.contactanos__titulo{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.estreno__titulo{
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+
+}
+
+.info__estreno {
+    padding: 5px;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.grid__container {
+
+    grid-template-areas: "main main main main main main";
+    display: grid;
+    border: 10px solid red;
+
+    grid-template-rows: 5fr 5fr 5fr;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+main{
+    background-color: lightblue ;
+}
+
+.grid__item {
+    border: 5px solid red;
+
+}
+
+.grid__imagen{
+ width: 320px;
+ height: 250px;
+
+}
+
+.grid__containerinicio{
+    display: grid;
+    border: 10px red;
+    gap: 1rem
+    ;
+
+    grid-template-rows: 0.5fr 0.5fr;
+
+    grid-template-columns: 50% 50%;
+}
+
+.grid__iteminicio {
+    margin-left: 5px;
+    margin-right: 1rem;
+    
+    font-size: 15px;
+    gap: 1rem
+    ;
+    border: 5px solid blue;
+    color: brown;
+}
+
+
+
+
+@media (min-width: 541px) and (max-width: 720px) {
+
+main { 
+    background-color: rgb(150, 220, 159);
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 540px) {
+    main { 
+        background-color: rgb(100, 138, 235);
+    }
+
+}
+
+
+
+
