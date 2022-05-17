@@ -76,6 +76,12 @@ ul li:hover ul {
     margin-left: 10px;
     padding: 10px;
 }
+.parrafos__index{
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -90,7 +96,6 @@ ul li:hover ul {
 .portada { 
     display: flex;
     flex-direction: column;
-   
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;   
@@ -201,6 +206,7 @@ margin-top: 1300px;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
+
 }
 .Info__elenco{
     padding: 5px;
@@ -209,7 +215,65 @@ margin-top: 1300px;
     font-size: 30px;
 }
 
-.info__temp1{
+.elenco__container{
+    
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+}
+
+.subtitulos__elenco{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.imagen__1 {
+    width: 160px;
+    height: 200px;
+}
+
+.imagen__1:hover {
+   transform: scale(1.6);
+
+    
+}
+ .imagen__2 {
+    width: 160px;
+    height: 200px;
+   
+    
+ }
+
+ .imagen__2:hover {
+     transform: scale(1.5);
+     
+
+ }
+
+ 
+
+ .imagen__3{
+    width: 160px;
+    height: 200px; 
+
+ }
+ .imagen__3:hover{
+     transform: scale(1.4)
+
+    
+ }
+ .iamgen__4{
+    width: 160px;
+    height: 200px;
+ }
+ .imagen__4:hover{
+     transform: scale(1.6);
+ }
+
+ .info__temp1{
     padding: 5px;
     color: white;
     margin-bottom: 100px;
@@ -222,6 +286,7 @@ margin-top: 1300px;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
+    justify-content: right;
 }
 
 .estreno__titulo{
@@ -230,6 +295,7 @@ margin-top: 1300px;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
+    justify-content: left;
 
 }
 
@@ -239,53 +305,15 @@ margin-top: 1300px;
     margin-bottom: 100px;
     font-size: 30px;
 }
+.titulos__index {
 
-.grid__container {
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+    justify-content: left;
 
-    grid-template-areas: "main main main main main main";
-    display: grid;
-    border: 10px solid red;
-
-    grid-template-rows: 5fr 5fr 5fr;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-}
-main{
-    background-color: lightblue ;
-}
-
-.grid__item {
-    border: 5px solid red;
-
-}
-
-.grid__imagen{
- width: 320px;
- height: 250px;
-
-}
-
-.grid__containerinicio{
-    display: grid;
-    border: 10px red;
-    gap: 1rem
-    ;
-
-    grid-template-rows: 0.5fr 0.5fr;
-
-    grid-template-columns: 50% 50%;
-}
-
-.grid__iteminicio {
-    margin-left: 5px;
-    margin-right: 1rem;
-    
-    font-size: 15px;
-    gap: 1rem
-    ;
-    border: 5px solid blue;
-    color: brown;
 }
 
 
