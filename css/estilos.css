@@ -6,10 +6,13 @@
     
     height: 15 fr;
     background-image: url(../recursos/imagen-black-mirror.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
 }
 .body__temporadas{
-    height: 22.5fr ;
+    height: 30.5fr ;
     background-image: url(../recursos/imagen-black-mirror.jpg);
     
 }
@@ -86,11 +89,11 @@ ul li:hover ul {
 
 
 .presentacion__contenido{
-    font-size: 55px;
+    font-size: 40px;
     padding:
     10px;
     margin: 5px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     color: white;
 }
 .portada { 
@@ -104,19 +107,14 @@ ul li:hover ul {
     
 
 }
-.footerinicio__redes{
-    font-size: 20px;
-color: white;
-width: 50px;
-height: 50px;
-margin-top: 1300px;
-}
-.footertemp__redes{
-    font-size: 20px;
-    color: white;
-    width: 50px;
-    height: 50px;
-    margin-top: 2500px;
+.footer__redes{
+    font-size:20px;
+color: rgb(4, 0, 255);
+padding: 1em 0;
+text-align: left;
+margin-top: auto;
+
+
 }
 
 
@@ -132,9 +130,9 @@ margin-top: 1300px;
     margin-bottom: 10px;
 }
 
-.temporada__titulo{
-    color: red;
-    margin-bottom: 30px;
+.temporada__subtitulo{
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
@@ -228,6 +226,8 @@ margin-top: 1300px;
     margin-top: 30px;
     margin-left: 10px;
     font-size: 40px;
+    text-align: left;
+    
 }
 
 .imagen__1 {
@@ -314,6 +314,25 @@ margin-top: 1300px;
     font-size: 40px;
     justify-content: left;
 
+}
+
+.row__texto{
+    font-size: 15px;
+    color: white;
+   
+}
+
+.subtitulo__row{
+    font-size: 25px;
+    color: red;
+}
+
+.pelicula__titulo{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
 }
 
 
