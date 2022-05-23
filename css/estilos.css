@@ -12,7 +12,7 @@
     
 }
 .body__temporadas{
-    height: 30.5fr ;
+    height: 50.5fr ;
     background-image: url(../recursos/imagen-black-mirror.jpg);
     
 }
@@ -93,7 +93,7 @@ ul li:hover ul {
     padding:
     10px;
     margin: 5px;
-    margin-bottom: 200px;
+    margin-bottom: 140px;
     color: white;
 }
 .portada { 
@@ -319,12 +319,21 @@ margin-top: auto;
 .row__texto{
     font-size: 15px;
     color: white;
+    
+   
+}
+.temp2__texto{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    
    
 }
 
 .subtitulo__row{
     font-size: 25px;
     color: red;
+    justify-content: left;
 }
 
 .pelicula__titulo{
@@ -333,6 +342,28 @@ margin-top: auto;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
+}
+.grid__iteminicio{
+    color: white;
+    font-size: 20px;
+}
+.subtitulos__inicio{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    margin-left: 10px;
+}
+.texto__inicio{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+.img-fluid:hover{
+    transform: scale(1.6
+    
+    );
+ 
+    
 }
 
 
