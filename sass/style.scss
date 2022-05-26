@@ -1,4 +1,7 @@
-*{ 
+@import 'variables';
+@import 'footer';
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -23,20 +26,20 @@
 .titulo{
     &__info{
         font-size: 60px;
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     margin-top: 50px;
     margin-left: 10px;
     padding: 10px;
 
     }
     &__pelicula{
-        color: white;
+        color: $color-secundario;
         padding: 10px;
         font-size: 60px;
 
     }
     &__elenco{
-        color: red;
+        color: $color-principal;
     margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 10px;
@@ -44,7 +47,7 @@
 
     }
     &__index{
-        color: red;
+        color:$color-principal;
         margin-bottom: 30px;
         margin-top: 50px;
         margin-left: 10px;
@@ -53,7 +56,7 @@
 
     }
     &__estreno{
-        color: red;
+        color: $color-principal;
     margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 10px;
@@ -61,7 +64,7 @@
     justify-content: left;
     }
     &__contactanos{
-        color: rgb(255, 255, 255);
+        color: $color-secundario;
     margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 10px;
@@ -69,18 +72,19 @@
     justify-content: right;
     }
 }
+    
 
 
     .subtitulo{
     &__temporada{
-        color: rgb(255, 255, 255);
+        color: $color-secundario;
     margin-bottom: 35px;
     margin-top: 50px;
     margin-left: 10px;
     font-size: 40px;
     }
     &__elenco{
-        color: rgb(255, 255, 255);
+        color: $color-secundario;
     margin-bottom: 10px;
     margin-top: 30px;
     margin-left: 10px;
@@ -94,7 +98,7 @@
     }
     &__inicio{
         font-size: 35px;
-        color: rgb(255, 0, 0);
+        color: $color-principal;
         margin-left: 10px;
     }
 }
@@ -148,7 +152,7 @@ ul ul li {
 }
 ul li:hover ul {
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: $color-secundario;
     width: 0.5fr ;
     padding: 15px;
 } 
@@ -165,7 +169,7 @@ ul li:hover ul {
     padding: 20px;
     height: 100px;
     font-size: 60px;
-    color: rgb(255, 255, 255);
+    color: $color-secundario;
     margin: 10px;
     
     
@@ -173,11 +177,11 @@ ul li:hover ul {
 
 .info__serie{
     font-size: 40px;
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     padding: 10px;
 }
 .parrafos__index{
-    color: white;
+    color: $color-secundario;
     font-size: 40px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -191,7 +195,7 @@ ul li:hover ul {
     10px;
     margin: 5px;
     margin-bottom: 140px;
-    color: white;
+    color: $color-secundario;
 }
 .portada { 
     display: flex;
@@ -217,7 +221,7 @@ margin-top: auto;
 
 
 .info__pelicula{
-    color: white;
+    color: $color-secundario;;
     font-size: 20px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -226,21 +230,21 @@ margin-top: auto;
 
 
 .temporada__1{
-    color: white;
+    color: $color-secundario;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 50px;
 }
 .temporada__1info{
-    color: white;
+    color: $color-secundario;
     font-size: 20px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
 .temp1__cap1{
-    
-    color: rgb(255, 0, 0);
+     
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -248,14 +252,14 @@ margin-top: auto;
 
 }
 .temp1__cap2{
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
 
 }
 .temp1__cap3{
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -263,14 +267,14 @@ margin-top: auto;
 }
 
 .temp2__cap1{
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
 
 .temp2__cap2{
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -278,7 +282,7 @@ margin-top: auto;
 
 
 .temp2__cap3{
-    color: rgb(255, 0, 0);
+    color: $color-principal;
     font-size: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -347,7 +351,7 @@ margin-top: auto;
 
  .info__temp1{
     padding: 5px;
-    color: white;
+    color: $color-secundario;
     margin-bottom: 100px;
     font-size: 30px;
 }
@@ -358,7 +362,7 @@ margin-top: auto;
 
 .info__estreno {
     padding: 5px;
-    color: white;
+    color: $color-secundario;
     margin-bottom: 100px;
     font-size: 30px;
 }
@@ -366,13 +370,13 @@ margin-top: auto;
 
 .row__texto{
     font-size: 15px;
-    color: white;
+    color:$color-secundario;
     
    
 }
 .temp2__texto{
     font-size: 15px;
-    color: white;
+    color: $color-secundario;
     background-color: black;
     
    
@@ -388,7 +392,7 @@ margin-top: auto;
 
 .texto__inicio{
     font-size: 25px;
-    color: white;
+    color: $color-secundario;
     margin-left: 10px;
     margin-bottom: 80px;
 }
@@ -405,7 +409,7 @@ margin-top: auto;
 }
 .link__temp:hover{
     text-decoration: underline;
-    color: red;
+    color: $color-principal;
 }
 
 
@@ -424,7 +428,3 @@ main {
     }
 
 }
-
-
-
-

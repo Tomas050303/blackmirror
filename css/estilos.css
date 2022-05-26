@@ -279,6 +279,10 @@ ul li:hover ul {
   margin-left: 10px;
   margin-bottom: 80px; }
 
+.img-fluid{
+    margin-bottom: 10px;
+}
+
 .img-fluid:hover {
   transform: scale(1.6); }
 
