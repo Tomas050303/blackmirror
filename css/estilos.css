@@ -1,396 +1,341 @@
-*{ 
-    margin: 0;
-    padding: 0;
-}
-.body__inicio {
-    
-    height: 15 fr;
-    background-image: url(../recursos/imagen-black-mirror.jpg);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
-}
-.body__temporadas{
-    height: 50.5fr ;
-    background-image: url(../recursos/imagen-black-mirror.jpg);
-    
-}
+* {
+  margin: 0;
+  padding: 0; }
 
+.body__inicio {
+  height: 15 fr;
+  background-image: url(../recursos/imagen-black-mirror.jpg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.body__temporadas {
+  height: 50.5fr;
+  background-image: url(../recursos/imagen-black-mirror.jpg); }
+
+.titulo__info {
+  font-size: 60px;
+  color: red;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 10px; }
+
+.titulo__pelicula {
+  color: red;
+  padding: 10px;
+  font-size: 60px; }
+
+.titulo__elenco {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px; }
+
+.titulo__index {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: left; }
+
+.titulo__estreno {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: left; }
+
+.titulo__contactanos {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: right; }
+
+.subtitulo__temporada {
+  color: red;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px; }
+
+.subtitulo__elenco {
+  color: red;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 40px;
+  text-align: left; }
+
+.subtitulo__row {
+  font-size: 25px;
+  color: red;
+  justify-content: left; }
+
+.subtitulo__inicio {
+  font-size: 35px;
+  color: red;
+  margin-left: 10px; }
 
 header {
-    background-color: rgb(0, 0, 0);
+  background-color: black; }
 
-    
-}
 ul {
-    
-    list-style-type: none;
-}
+  list-style-type: none; }
 
 li {
-    display: inline-block;
-    width: 196px;
-    position: relative;
-    font-size: 18px;
-}
+  display: inline-block;
+  width: 196px;
+  position: relative;
+  font-size: 18px; }
 
 ul ul {
-    position: absolute;
-    display: none;
-}
+  position: absolute;
+  display: none; }
+
 ul ul li {
-    display: block;
-}
+  display: block; }
+
 ul li:hover ul {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: 0.5fr ;
-    padding: 15px;
-} 
+  display: block;
+  background-color: white;
+  width: 0.5fr;
+  padding: 15px; }
 
 .header__navegacion {
-    padding: 15px;
-    display: inline;
-    background-color: black;
-}
+  padding: 15px;
+  display: inline;
+  background-color: black; }
 
 .portada__titulo {
-    border-radius: 30px;
-    width: 10fr;
-    padding: 20px;
-    height: 100px;
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    
-    
-}
+  border-radius: 30px;
+  width: 10fr;
+  padding: 20px;
+  height: 100px;
+  font-size: 60px;
+  color: white;
+  margin: 10px; }
 
-.info__serie{
-    font-size: 40px;
-    color: rgb(255, 0, 0);
-    padding: 10px;
-}
-.Titulo__info{
-    font-size: 60px;
-    color: rgb(255, 0, 0);
-    margin-top: 50px;
-    margin-left: 10px;
-    padding: 10px;
-}
-.parrafos__index{
-    color: white;
-    font-size: 40px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+.info__serie {
+  font-size: 40px;
+  color: red;
+  padding: 10px; }
 
+.Titulo__info {
+  font-size: 60px;
+  color: red;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 10px; }
 
+.parrafos__index {
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-.presentacion__contenido{
-    font-size: 40px;
-    padding:
-    10px;
-    margin: 5px;
-    margin-bottom: 140px;
-    color: white;
-}
-.portada { 
-    display: flex;
-    flex-direction: column;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;   
-    background-size: cover;
-    height: 12fr;
-    
+.presentacion__contenido {
+  font-size: 40px;
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: 140px;
+  color: white; }
 
-}
-.footer__redes{
-    font-size:20px;
-color: rgb(4, 0, 255);
-padding: 1em 0;
-text-align: left;
-margin-top: auto;
+.portada {
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12fr; }
 
+.footer__redes {
+  font-size: 20px;
+  color: #0400ff;
+  padding: 1em 0;
+  text-align: left;
+  margin-top: auto; }
 
-}
+.titulo__pelicula {
+  color: white;
+  padding: 10px;
+  font-size: 60px; }
 
+.info__pelicula {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-.titulo__pelicula{
-    color: white;
-    padding: 10px;
-    font-size: 60px;
-}
-.info__pelicula{
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+.temporada__1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 50px; }
 
-.temporada__subtitulo{
-    color: rgb(255, 255, 255);
-    margin-bottom: 35px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-}
+.temporada__1info {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-.temporada__1{
-    color: white;
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 50px;
-}
-.temporada__1info{
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-.temp1__cap1{
-    
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    
+.temp1__cap1 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-}
-.temp1__cap2{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+.temp1__cap2 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-}
-.temp1__cap3{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+.temp1__cap3 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-}
+.temp2__cap1 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-.temp2__cap1{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+.temp2__cap2 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
-.temp2__cap2{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+.temp2__cap3 {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
+.titulo__elenco {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px; }
 
-.temp2__cap3{
-    color: rgb(255, 0, 0);
-    font-size: 30px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
+.Info__elenco {
+  padding: 5px;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 30px; }
 
-
-.elenco__titulo{
-    color: red;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-
-}
-.Info__elenco{
-    padding: 5px;
-    color: white;
-    margin-bottom: 100px;
-    font-size: 30px;
-}
-
-.elenco__container{
-    
-    display: flex;
-    padding: 10px;
-    justify-content: left;
-}
-
-.subtitulos__elenco{
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 40px;
-    text-align: left;
-    
-}
+.elenco__container {
+  display: flex;
+  padding: 10px;
+  justify-content: left; }
 
 .imagen__1 {
-    width: 160px;
-    height: 200px;
-}
+  width: 160px;
+  height: 200px; }
 
 .imagen__1:hover {
-   transform: scale(1.6);
+  transform: scale(1.6); }
 
-    
-}
- .imagen__2 {
-    width: 160px;
-    height: 200px;
-   
-    
- }
+.imagen__2 {
+  width: 160px;
+  height: 200px; }
 
- .imagen__2:hover {
-     transform: scale(1.5);
-     
+.imagen__2:hover {
+  transform: scale(1.5); }
 
- }
+.imagen__3 {
+  width: 160px;
+  height: 200px; }
 
- 
+.imagen__3:hover {
+  transform: scale(1.4); }
 
- .imagen__3{
-    width: 160px;
-    height: 200px; 
+.iamgen__4 {
+  width: 160px;
+  height: 200px; }
 
- }
- .imagen__3:hover{
-     transform: scale(1.4)
+.imagen__4:hover {
+  transform: scale(1.6); }
 
-    
- }
- .iamgen__4{
-    width: 160px;
-    height: 200px;
- }
- .imagen__4:hover{
-     transform: scale(1.6);
- }
+.info__temp1 {
+  padding: 5px;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 30px; }
 
- .info__temp1{
-    padding: 5px;
-    color: white;
-    margin-bottom: 100px;
-    font-size: 30px;
-}
+.titulo__contactanos {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: right; }
 
-.contactanos__titulo{
-    color: rgb(255, 255, 255);
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-    justify-content: right;
-}
-
-.estreno__titulo{
-    color: red;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-    justify-content: left;
-
-}
+.titulo__estreno {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: left; }
 
 .info__estreno {
-    padding: 5px;
-    color: white;
-    margin-bottom: 100px;
-    font-size: 30px;
-}
-.titulos__index {
+  padding: 5px;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 30px; }
 
-    color: red;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-    justify-content: left;
+.titulo__index {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  justify-content: left; }
 
-}
+.row__texto {
+  font-size: 15px;
+  color: white; }
 
-.row__texto{
-    font-size: 15px;
-    color: white;
-    
-   
-}
-.temp2__texto{
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    
-   
-}
+.temp2__texto {
+  font-size: 15px;
+  color: white;
+  background-color: black; }
 
-.subtitulo__row{
-    font-size: 25px;
-    color: red;
-    justify-content: left;
-}
+.grid__iteminicio {
+  color: white;
+  font-size: 20px; }
 
-.pelicula__titulo{
-    color: rgb(255, 255, 255);
-    margin-bottom: 5px;
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
-}
-.grid__iteminicio{
-    color: white;
-    font-size: 20px;
-}
-.subtitulos__inicio{
-    font-size: 35px;
-    color: rgb(255, 0, 0);
-    margin-left: 10px;
-}
-.texto__inicio{
-    font-size: 25px;
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 80px;
-}
-.img-fluid:hover{
-    transform: scale(1.6
-    
-    );
- 
-    
-}
-.link__temp{
-    text-decoration: none;
+.texto__inicio {
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 80px; }
 
-}
-.link__temp:hover{
-    text-decoration: underline;
-    color: red;
-}
+.img-fluid:hover {
+  transform: scale(1.6); }
 
+.link__temp {
+  text-decoration: none; }
 
+.link__temp:hover {
+  text-decoration: underline;
+  color: red; }
 
 @media (min-width: 541px) and (max-width: 720px) {
-
-main { 
-    background-color: rgb(150, 220, 159);
-}
-}
-
+  main {
+    background-color: #96dc9f; } }
 
 @media (min-width: 320px) and (max-width: 540px) {
-    main { 
-        background-color: rgb(100, 138, 235);
-    }
-
-}
-
-
-
-
+  main {
+    background-color: #8594b8; } }
