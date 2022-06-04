@@ -76,6 +76,11 @@
   color: red;
   justify-content: left; }
 
+  .subtitulo__row2 {
+    font-size: 25px;
+    color: red;
+    justify-content: left; }
+
 .subtitulo__inicio {
   font-size: 35px;
   color: red;
