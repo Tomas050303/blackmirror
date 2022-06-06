@@ -9,10 +9,6 @@
   flex-direction: column;
   min-height: 100vh; }
 
-.body__temporadas {
-  height: 50.5fr;
-  background-image: url(../recursos/imagen-black-mirror.jpg); }
-
 .titulo__info {
   font-size: 60px;
   color: red;
@@ -76,10 +72,10 @@
   color: red;
   justify-content: left; }
 
-  .subtitulo__row2 {
-    font-size: 25px;
-    color: red;
-    justify-content: left; }
+.subtitulo__row2 {
+  font-size: 25px;
+  color: red;
+  justify-content: left; }
 
 .subtitulo__inicio {
   font-size: 35px;
@@ -284,9 +280,8 @@ ul li:hover ul {
   margin-left: 10px;
   margin-bottom: 80px; }
 
-.img-fluid{
-    margin-bottom: 10px;
-}
+.img-fluid {
+  margin-bottom: 10px; }
 
 .img-fluid:hover {
   transform: scale(1.6); }
@@ -297,6 +292,17 @@ ul li:hover ul {
 .link__temp:hover {
   text-decoration: underline;
   color: red; }
+
+.required {
+  font-size: 30px;
+  color: red;
+  justify-content: left; }
+
+.boton__enviar {
+  margin-top: 5px; }
+
+.boton__reestablecer {
+  margin-top: 5px; }
 
 @media (min-width: 541px) and (max-width: 720px) {
   main {
