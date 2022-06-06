@@ -69,6 +69,13 @@ body {
   font-size: 40px;
   text-align: left; }
 
+.subtitulo__contacto {
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px; }
+
 header {
   background-color: black; }
 
