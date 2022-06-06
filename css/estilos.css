@@ -1,56 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.titulo__pelicula, .titulo__elenco, .titulo__contactanos, .titulo__temporadas, .titulo__estreno, .titulo__index {
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 60px;
+  justify-content: left; }
+
 .body__inicio {
   height: 15 fr;
   background-image: url(../recursos/imagen-black-mirror.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
-
-.titulo__info {
-  font-size: 60px;
-  color: red;
-  margin-top: 50px;
-  margin-left: 10px;
-  padding: 10px; }
-
-.titulo__pelicula {
-  color: white;
-  padding: 10px;
-  font-size: 60px; }
-
-.titulo__elenco {
-  color: red;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 40px; }
-
-.titulo__index {
-  color: red;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 40px;
-  justify-content: left; }
-
-.titulo__estreno {
-  color: red;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 40px;
-  justify-content: left; }
-
-.titulo__contactanos {
-  color: white;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 40px;
-  justify-content: right; }
 
 .subtitulo__temporada {
   color: white;
@@ -78,9 +50,24 @@
   justify-content: left; }
 
 .subtitulo__inicio {
-  font-size: 35px;
+  font-size: 50px;
   color: red;
   margin-left: 10px; }
+
+.subtitulo__pelicula {
+  color: white;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-size: 40px;
+  text-align: left; }
+
+.subtitulo__pelicula2 {
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: left; }
 
 header {
   background-color: black; }
@@ -112,15 +99,6 @@ ul li:hover ul {
   display: inline;
   background-color: black; }
 
-.portada__titulo {
-  border-radius: 30px;
-  width: 10fr;
-  padding: 20px;
-  height: 100px;
-  font-size: 60px;
-  color: white;
-  margin: 10px; }
-
 .info__serie {
   font-size: 40px;
   color: red;
@@ -133,10 +111,10 @@ ul li:hover ul {
   margin-bottom: 10px; }
 
 .presentacion__contenido {
-  font-size: 40px;
+  font-size: 50px;
   padding: 10px;
   margin: 5px;
-  margin-bottom: 140px;
+  margin-bottom: 350px;
   color: white; }
 
 .portada {
@@ -149,8 +127,8 @@ ul li:hover ul {
   height: 12fr; }
 
 .footer__redes {
-  font-size: 20px;
-  color: #0400ff;
+  font-size: 15px;
+  color: #ffffff;
   padding: 1em 0;
   text-align: left;
   margin-top: auto; }
@@ -265,10 +243,19 @@ ul li:hover ul {
   font-size: 15px;
   color: white; }
 
+.contenedor__texto {
+  background-color: black;
+  opacity: .2; }
+
 .temp2__texto {
-  font-size: 15px;
   color: white;
-  background-color: black; }
+  background-color: black;
+  opacity: .9; }
+
+.temp3__texto {
+  color: red;
+  background-color: black;
+  opacity: .9; }
 
 .grid__iteminicio {
   color: white;
@@ -281,10 +268,10 @@ ul li:hover ul {
   margin-bottom: 80px; }
 
 .img-fluid {
-  margin-bottom: 10px; }
-
-.img-fluid:hover {
-  transform: scale(1.6); }
+  margin-bottom: 10px;
+  transition: all 300ms; }
+  .img-fluid:hover {
+    transform: scale(1.2); }
 
 .link__temp {
   text-decoration: none; }
@@ -303,6 +290,13 @@ ul li:hover ul {
 
 .boton__reestablecer {
   margin-top: 5px; }
+
+.text-muted {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 1em 0;
+  text-align: left;
+  margin-top: auto; }
 
 @media (min-width: 541px) and (max-width: 720px) {
   main {
