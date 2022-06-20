@@ -4,32 +4,14 @@
   padding: 0; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../recursos/imagen-black-mirror.jpg); }
 
 .titulo__pelicula, .titulo__elenco, .titulo__contactanos, .titulo__temporadas, .titulo__estreno, .titulo__index {
-  color: red;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 60px;
-  justify-content: left; }
-
-.body__inicio {
-  height: 15 fr;
-  background-image: url(../recursos/imagen-black-mirror.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; }
+  color: red; }
 
 .subtitulo__temporada {
-  color: white;
-  margin-bottom: 35px;
-  margin-top: 50px;
-  margin-left: 10px;
-  font-size: 40px; }
+  color: white; }
 
 .subtitulo__elenco {
   color: white;
@@ -40,9 +22,7 @@ body {
   text-align: left; }
 
 .subtitulo__row {
-  font-size: 25px;
-  color: red;
-  justify-content: left; }
+  color: red; }
 
 .subtitulo__row2 {
   font-size: 25px;
@@ -50,9 +30,7 @@ body {
   justify-content: left; }
 
 .subtitulo__inicio {
-  font-size: 50px;
-  color: red;
-  margin-left: 10px; }
+  color: red; }
 
 .subtitulo__pelicula {
   color: white;
@@ -81,9 +59,6 @@ body {
   margin-right: 40px;
   font-size: 20px; }
 
-header {
-  background-color: black; }
-
 ul {
   list-style-type: none; }
 
@@ -102,19 +77,9 @@ ul ul li {
 
 ul li:hover ul {
   display: block;
-  background-color: white;
+  color: white;
   width: 0.5fr;
   padding: 15px; }
-
-.header__navegacion {
-  padding: 15px;
-  display: inline;
-  background-color: black; }
-
-.info__serie {
-  font-size: 40px;
-  color: red;
-  padding: 10px; }
 
 .parrafos__index {
   color: white;
@@ -123,10 +88,10 @@ ul li:hover ul {
   margin-bottom: 10px; }
 
 .presentacion__contenido {
-  font-size: 50px;
+  font-size: 35px;
   padding: 10px;
   margin: 5px;
-  margin-bottom: 350px;
+  margin-bottom: 100px;
   color: white; }
 
 .portada {
@@ -138,106 +103,10 @@ ul li:hover ul {
   background-size: cover;
   height: 12fr; }
 
-.footer__redes {
-  font-size: 15px;
-  color: #ffffff;
-  padding: 1em 0;
-  text-align: left;
-  margin-top: auto; }
-
-.info__pelicula {
-  color: white;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temporada__1 {
-  color: white;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 50px; }
-
-.temporada__1info {
-  color: white;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp1__cap1 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp1__cap2 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp1__cap3 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp2__cap1 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp2__cap2 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.temp2__cap3 {
-  color: red;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.Info__elenco {
-  padding: 5px;
-  color: white;
-  margin-bottom: 100px;
-  font-size: 30px; }
-
 .elenco__container {
   display: flex;
   padding: 10px;
   justify-content: left; }
-
-.imagen__1 {
-  width: 160px;
-  height: 200px; }
-
-.imagen__1:hover {
-  transform: scale(1.6); }
-
-.imagen__2 {
-  width: 160px;
-  height: 200px; }
-
-.imagen__2:hover {
-  transform: scale(1.5); }
-
-.imagen__3 {
-  width: 160px;
-  height: 200px; }
-
-.imagen__3:hover {
-  transform: scale(1.4); }
-
-.iamgen__4 {
-  width: 160px;
-  height: 200px; }
-
-.imagen__4:hover {
-  transform: scale(1.6); }
 
 .info__temp1 {
   padding: 5px;
@@ -251,9 +120,22 @@ ul li:hover ul {
   margin-bottom: 100px;
   font-size: 30px; }
 
-.row__texto {
-  font-size: 15px;
-  color: white; }
+.info__serie {
+  font-size: 40px;
+  color: red;
+  padding: 10px; }
+
+.info__pelicula {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
+
+.info__elenco {
+  padding: 5px;
+  color: white;
+  margin-bottom: 100px;
+  font-size: 30px; }
 
 .contenedor__texto {
   background-color: black;
@@ -262,43 +144,26 @@ ul li:hover ul {
 .pelicula__trailer {
   margin-left: 50px; }
 
-.temp2__texto {
-  color: white;
-  background-color: black;
-  opacity: .9; }
-
-.temp3__texto {
-  color: red;
-  background-color: black;
-  opacity: .9; }
-
 .grid__iteminicio {
   color: white;
   font-size: 20px; }
 
-.texto__inicio {
-  font-size: 25px;
-  color: white;
-  margin-left: 10px;
-  margin-bottom: 80px; }
-
-.img-fluid {
-  margin-bottom: 10px;
+.img-temporadas {
   transition: all 300ms; }
-  .img-fluid:hover {
+  .img-temporadas:hover {
     transform: scale(1.2); }
 
 .link__temp {
   text-decoration: none; }
-
-.link__temp:hover {
-  text-decoration: underline;
-  color: red; }
+  .link__temp:hover {
+    text-decoration: underline;
+    color: red; }
 
 .required {
   font-size: 30px;
   color: red;
-  justify-content: left; }
+  justify-content: left;
+  color: white; }
 
 .boton__enviar {
   margin-top: 5px; }
@@ -308,7 +173,7 @@ ul li:hover ul {
 
 .text-muted {
   font-size: 15px;
-  color: #ffffff;
+  color: white;
   padding: 1em 0;
   text-align: left;
   margin-top: auto; }
