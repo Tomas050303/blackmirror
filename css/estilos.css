@@ -10,9 +10,6 @@ body {
 .titulo__pelicula, .titulo__elenco, .titulo__contactanos, .titulo__temporadas, .titulo__estreno, .titulo__index {
   color: red; }
 
-.subtitulo__temporada {
-  color: white; }
-
 .subtitulo__elenco {
   color: white;
   margin-bottom: 10px;
@@ -33,19 +30,7 @@ body {
   color: red; }
 
 .subtitulo__pelicula {
-  color: white;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  font-size: 40px;
-  text-align: left; }
-
-.subtitulo__pelicula2 {
-  color: red;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-top: 30px;
-  font-size: 40px;
-  text-align: left; }
+  color: red; }
 
 .subtitulo__contacto {
   font-size: 30px;
@@ -124,12 +109,6 @@ ul li:hover ul {
   font-size: 40px;
   color: red;
   padding: 10px; }
-
-.info__pelicula {
-  color: white;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
 
 .info__elenco {
   padding: 5px;

@@ -11,9 +11,6 @@ body{
   color: $color-principal;
   
 } 
-
-
-
 .titulo {
   &__pelicula {
     @extend %titulos 
@@ -33,14 +30,9 @@ body{
   &__index{
    @extend %titulos
   }
-    
   
 }
 .subtitulo{
-  &__temporada {
-    color: $color-secundario;
-   
-  }
   &__elenco{
     color: $color-secundario;
     margin-bottom: 10px;
@@ -61,19 +53,7 @@ body{
     color:$color-principal;
   }  
   &__pelicula{
-    color: $color-secundario;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    font-size: 40px;
-    text-align: left;
-  }
-  &__pelicula2{
     color: $color-principal;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-top: 30px;
-    font-size: 40px;
-    text-align: left;
   }
   &__contacto{
     font-size: 30px;
@@ -88,7 +68,6 @@ body{
   margin-right: 40px;
   font-size: 20px;
 }
-
 ul {
     list-style-type: none;
 } 
@@ -111,7 +90,6 @@ ul li:hover ul {
     width: 0.5fr;
     padding: 15px;
 }
- 
 .parrafos__index {
   color: $color-secundario;
     font-size: 40px;
@@ -159,12 +137,7 @@ ul li:hover ul {
     color:$color-principal;
     padding: 10px;
     }
-    &__pelicula{
-      color: $color-secundario;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    }
+    
     &__elenco{
       padding: 5px;
       color: $color-secundario;
@@ -173,8 +146,6 @@ ul li:hover ul {
     }
 
 }
-
-
 .contenedor__texto{
   background-color: $color-terciario;
   opacity:.2;
