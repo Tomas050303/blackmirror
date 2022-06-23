@@ -11,38 +11,16 @@ body {
   color: red; }
 
 .subtitulo__elenco {
-  color: white;
-  margin-bottom: 10px;
-  margin-top: 30px;
-  margin-left: 10px;
-  font-size: 40px;
-  text-align: left; }
+  color: red; }
 
 .subtitulo__row {
   color: red; }
-
-.subtitulo__row2 {
-  font-size: 25px;
-  color: red;
-  justify-content: left; }
 
 .subtitulo__inicio {
   color: red; }
 
 .subtitulo__pelicula {
   color: red; }
-
-.subtitulo__contacto {
-  font-size: 30px;
-  color: white;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px; }
-
-.nav-link {
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 20px; }
 
 ul {
   list-style-type: none; }
@@ -65,28 +43,6 @@ ul li:hover ul {
   color: white;
   width: 0.5fr;
   padding: 15px; }
-
-.parrafos__index {
-  color: white;
-  font-size: 40px;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.presentacion__contenido {
-  font-size: 35px;
-  padding: 10px;
-  margin: 5px;
-  margin-bottom: 100px;
-  color: white; }
-
-.portada {
-  display: flex;
-  flex-direction: column;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 12fr; }
 
 .elenco__container {
   display: flex;
@@ -120,9 +76,6 @@ ul li:hover ul {
   background-color: black;
   opacity: .2; }
 
-.pelicula__trailer {
-  margin-left: 50px; }
-
 .grid__iteminicio {
   color: white;
   font-size: 20px; }
@@ -137,12 +90,6 @@ ul li:hover ul {
   .link__temp:hover {
     text-decoration: underline;
     color: red; }
-
-.required {
-  font-size: 30px;
-  color: red;
-  justify-content: left;
-  color: white; }
 
 .boton__enviar {
   margin-top: 5px; }

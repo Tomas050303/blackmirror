@@ -8,33 +8,34 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <title> Contactanos</title>
 </head>
-<body class="body__inicio">
+<body>
   <header class="bg-dark">
     <div class="container bg-dark">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../recursos/logo-inicio.jpg" width="300" height="70 ">
-          </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="header__navegacion navbar-nav">
-            <a class="nav-link" href="temporadas.html">Temporadas</a>
-            <a class="nav-link" href="elenco.html">Elenco</a>
-            <a class="nav-link" href="estreno.html">Estreno</a>
-            <a class="nav-link" href="pelicula.html">Película</a>
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </div>    
-        </div>  
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">   
+                <a class="navbar-brand" href="../index.html">
+                    <img class="img-fluid" src="../recursos/logo-inicio.jpg" width="300" height="70 ">
+                </a>
+            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link mx-2 fs-5" href="temporadas.html">Temporadas</a>
+                  <a class="nav-link mx-2 fs-5" href="elenco.html">Elenco</a>
+                  <a class="nav-link mx-2 fs-5" href="estreno.html">Estreno</a>
+                  <a class="nav-link mx-2 fs-5" href="pelicula.html">Película</a>
+                  <a class="nav-link mx-2 fs-5" href="contacto.html">Contacto</a>
+                </div>
+            </div>  
+        </nav>
     </div>
-  </header>
+</header>
   
   <section class="container-xl ">
+  
     <h1 class="titulo__index mt-5 "> Contactanos </h1>            
     <article class="text-white fs-3 mb-5">
       <p>
@@ -42,28 +43,40 @@
       </p>
     </article>
   </section>
-    
-    <div id="after_submit">
-    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-      <div class="row">
-        <label class="required" for="name">Nombre:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-        <span id="name_validation" class="error_message"></span>
-      </div>
-      <div class="row">
-        <label class="required" for="email">E-mail:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <section class="container-xl"> 
+      <form>
+        <div class=" col-sm-3 my-3 text-white fs-5">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
         <span id="email_validation" class="error_message"></span>
+        </div>
+
+        <div class=" col-sm-3 my-3 text-white fs-5">
+          <label for="exampleInputPassword1" class="form-label"> Nombre Y Apellido</label>
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+        </div>
+        
+        <div class="col-sm-3 my-3 text-white fs-5">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label form-text" for="exampleCheck1">Check me out</label>
+        </div>
+
+      <div class="col-sm-3 my-3 text-white fs-5">
+          <label class="fs-5 text-white my-2" for="Telefono">Telefono</label><br />
+        <input id="Telefono" class="input" name="Telefono" type="text" value="" size="30" /><br />
+        <span id="telefono_validation" class="error_message"></span>
       </div>
-      <div class="row">
-        <label class="required" for="message">Consulta:</label><br />
-        <textarea id="message" class="input" name="message" rows="3" cols="30"></textarea><br />
-        <span id="message_validation" class="error_message"></span>
-      </div>
+
+      <div class="col-sm-9 my-3 text-white fs-5">
+        <label class="fs-5 text-white my-2" for="consulta">Consulta</label><br />
+      <input id="consulta" class="input" name="consulta" type="text" value="" size="30" /><br />
+      <span id="consulta_validation" class="error_message"></span>
+    </div>
       
-     <input class="boton__enviar" type="submit"value"Enviar Formulario"></input>
-     <input class="boton__reestablecer" type="reset"value"Limpiar Formulario"></input>           
-    </form>
+        <button type="submit" class=" my-5 btn btn-primary">Submit</button>
+      </form>
+      
         
        
     

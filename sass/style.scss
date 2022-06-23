@@ -7,6 +7,8 @@ body{
   font-family: 'Roboto', sans-serif;
   background-image: url(../recursos/imagen-black-mirror.jpg);
 }  
+
+
 %titulos{
   color: $color-principal;
   
@@ -34,40 +36,21 @@ body{
 }
 .subtitulo{
   &__elenco{
-    color: $color-secundario;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 40px;
-    text-align: left;
+    color: $color-principal;
+    
   }
   &__row{
     color:$color-principal;
   }
-  &__row2{
-    font-size: 25px;
-    color:$color-principal;
-    justify-content: left;
-  } 
+ 
   &__inicio{
     color:$color-principal;
   }  
   &__pelicula{
     color: $color-principal;
   }
-  &__contacto{
-    font-size: 30px;
-    color: $color-secundario;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
 }
-.nav-link{
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 20px;
-}
+
 ul {
     list-style-type: none;
 } 
@@ -89,28 +72,6 @@ ul li:hover ul {
     color: $color-secundario;
     width: 0.5fr;
     padding: 15px;
-}
-.parrafos__index {
-  color: $color-secundario;
-    font-size: 40px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-.presentacion__contenido {
-    font-size: 35px;
-    padding: 10px;
-    margin: 5px;
-    margin-bottom: 100px;
-    color: $color-secundario;
-}
-.portada {
-    display: flex;
-    flex-direction: column;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 12fr;
 }
 
 .elenco__container {
@@ -152,9 +113,7 @@ ul li:hover ul {
   
 }
 
-.pelicula__trailer{
-  margin-left: 50px;
-}
+
 
 .grid__iteminicio {
   color: $color-secundario;
@@ -174,12 +133,7 @@ ul li:hover ul {
     color:$color-principal;
   }
 }
-.required{
-  font-size: 30px;
-  color:$color-principal;
-  justify-content: left;
-  color: $color-secundario; 
-}
+
 .boton{
   &__enviar{
     margin-top: 5px;
