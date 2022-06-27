@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&family=Staatliches&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -22,68 +22,18 @@ body {
 .subtitulo__pelicula {
   color: red; }
 
-ul {
-  list-style-type: none; }
+.texto__logo {
+  font-family: 'Staatliches', cursive;
+  color: grey; }
 
-li {
-  display: inline-block;
-  width: 196px;
-  position: relative;
-  font-size: 18px; }
-
-ul ul {
-  position: absolute;
-  display: none; }
-
-ul ul li {
-  display: block; }
-
-ul li:hover ul {
-  display: block;
-  color: white;
-  width: 0.5fr;
-  padding: 15px; }
-
-.elenco__container {
-  display: flex;
-  padding: 10px;
-  justify-content: left; }
-
-.info__temp1 {
-  padding: 5px;
-  color: white;
-  margin-bottom: 100px;
-  font-size: 30px; }
-
-.info__estreno {
-  padding: 5px;
-  color: white;
-  margin-bottom: 100px;
-  font-size: 30px; }
-
-.info__serie {
-  font-size: 40px;
-  color: red;
-  padding: 10px; }
-
-.info__elenco {
-  padding: 5px;
-  color: white;
-  margin-bottom: 100px;
-  font-size: 30px; }
-
-.contenedor__texto {
-  background-color: black;
-  opacity: .2; }
-
-.grid__iteminicio {
-  color: white;
-  font-size: 20px; }
+.video__trailer {
+  min-width: 170px;
+  min-height: 280px; }
 
 .img-temporadas {
   transition: all 300ms; }
   .img-temporadas:hover {
-    transform: scale(1.2); }
+    transform: scale(1.1); }
 
 .link__temp {
   text-decoration: none; }
@@ -91,15 +41,5 @@ ul li:hover ul {
     text-decoration: underline;
     color: red; }
 
-.boton__enviar {
-  margin-top: 5px; }
-
-.boton__reestablecer {
-  margin-top: 5px; }
-
-.text-muted {
-  font-size: 15px;
-  color: white;
-  padding: 1em 0;
-  text-align: left;
-  margin-top: auto; }
+.temporada_texto {
+  background-color: black; }

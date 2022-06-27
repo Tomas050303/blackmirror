@@ -14,7 +14,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">   
                 <a class="navbar-brand" href="../index.html">
-                    <img class="img-fluid" src="../recursos/logo-inicio.jpg" width="300" height="70 ">
+                  <h1 class="texto__logo my-3">
+                    Black Mirror
+                  </h1>
                 </a>
             </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +34,7 @@
             </div>  
         </nav>
     </div>
-</header>
+  </header>
   
   <section class="container-xl ">
   
@@ -44,38 +46,33 @@
     </article>
   </section>
     <section class="container-xl"> 
-      <form>
-        <div class=" col-sm-3 my-3 text-white fs-5">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-        <span id="email_validation" class="error_message"></span>
-        </div>
-
-        <div class=" col-sm-3 my-3 text-white fs-5">
-          <label for="exampleInputPassword1" class="form-label"> Nombre Y Apellido</label>
-          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-        <span id="name_validation" class="error_message"></span>
-        </div>
-        
-        <div class="col-sm-3 my-3 text-white fs-5">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label form-text" for="exampleCheck1">Check me out</label>
-        </div>
-
-      <div class="col-sm-3 my-3 text-white fs-5">
-          <label class="fs-5 text-white my-2" for="Telefono">Telefono</label><br />
-        <input id="Telefono" class="input" name="Telefono" type="text" value="" size="30" /><br />
-        <span id="telefono_validation" class="error_message"></span>
-      </div>
-
-      <div class="col-sm-9 my-3 text-white fs-5">
-        <label class="fs-5 text-white my-2" for="consulta">Consulta</label><br />
-      <input id="consulta" class="input" name="consulta" type="text" value="" size="30" /><br />
-      <span id="consulta_validation" class="error_message"></span>
-    </div>
-      
-        <button type="submit" class=" my-5 btn btn-primary">Submit</button>
-      </form>
+      <main class="container bg-secondary bg-opacity-25 border border-3 border-white rounded-3 my-5">
+        <form action="formulario.html" method="POST" enctype="multipart/form-data">
+          <div class="container">
+            <div class="row g-3 mt-2">
+              <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Ingresar nombre..." aria-label="Nombre">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Ingresar apellido..." aria-label="Apellido">
+              </div>
+              <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="ingresar email..." aria-label="E-Mail">
+              </div>
+              <div class="col-md-6">
+                <input type="number" class="form-control" placeholder="Ingresar numero..." aria-label="Numero">
+            </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Consulta" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Ingresa tu consulta...</label>
+                </div>
+              <div class="col-12 mb-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </div>		
+        </form>
+      </main>
       
         
        
