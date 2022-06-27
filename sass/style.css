@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../recursos/imagen-black-mirror.jpg);
+}
+
+.titulo__index, .titulo__estreno, .titulo__temporadas, .titulo__contactanos, .titulo__elenco, .titulo__pelicula {
+  color: rgb(255, 0, 0);
+}
+
+.subtitulo__elenco {
+  color: rgb(255, 0, 0);
+}
+.subtitulo__row {
+  color: rgb(255, 0, 0);
+}
+.subtitulo__inicio {
+  color: rgb(255, 0, 0);
+}
+.subtitulo__pelicula {
+  color: rgb(255, 0, 0);
+}
+
+.texto__logo {
+  font-family: "Staatliches", cursive;
+  color: grey;
+}
+
+.video__trailer {
+  min-width: 170px;
+  min-height: 280px;
+}
+
+.img-temporadas {
+  transition: all 300ms;
+}
+.img-temporadas:hover {
+  transform: scale(1.1);
+}
+
+.link__temp {
+  text-decoration: none;
+}
+.link__temp:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+}
+
+.temporada_texto {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
